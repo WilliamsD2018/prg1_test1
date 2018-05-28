@@ -8,5 +8,13 @@ def is_square(number):
 		number=16 -> True 
 		number =15 -> False
 	'''
-	return True
- 
+
+
+	root = math.sqrt(number)
+	print root
+	if root == 1:
+		return True
+	else:
+		return False
+
+
